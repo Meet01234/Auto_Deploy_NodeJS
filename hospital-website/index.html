@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Plus - Advanced Healthcare Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">+</div>
+                    <span>MediCare Plus</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="appointment-btn">Book Appointment</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Background -->
+    <section id="home" class="hero">
+        <div id="three-container"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Your Health, Our Priority</h1>
+                <p class="hero-subtitle">Experience world-class healthcare with cutting-edge technology and compassionate care</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>50K+</h3>
+                        <p>Patients Treated</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Expert Doctors</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Emergency Care</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Medical Services</h2>
+                <p>Comprehensive healthcare solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🚑</div>
+                    <h3>Emergency Care</h3>
+                    <p>24/7 emergency services with rapid response team and state-of-the-art equipment</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">❤️</div>
+                    <h3>Cardiology</h3>
+                    <p>Advanced cardiac care with experienced cardiologists and modern diagnostic tools</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🧠</div>
+                    <h3>Neurology</h3>
+                    <p>Comprehensive neurological care for brain and nervous system disorders</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">👶</div>
+                    <h3>Pediatrics</h3>
+                    <p>Specialized care for infants, children, and adolescents with gentle approach</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🦴</div>
+                    <h3>Orthopedics</h3>
+                    <p>Expert treatment for bone, joint, and muscle conditions with advanced techniques</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🔬</div>
+                    <h3>Laboratory</h3>
+                    <p>Accurate diagnostic testing with cutting-edge laboratory technology</p>
+                    <a href="#" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Expert Doctors</h2>
+                <p>Highly qualified medical professionals dedicated to your wellbeing</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-placeholder">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. John Smith</h3>
+                    <p class="specialty">Chief Cardiologist</p>
+                    <p class="experience">15+ years experience</p>
+                    <button class="contact-doctor">Contact</button>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-placeholder">👩‍⚕️</div>
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="specialty">Neurologist</p>
+                    <p class="experience">12+ years experience</p>
+                    <button class="contact-doctor">Contact</button>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-placeholder">👨‍⚕️</div>
+                    </div>
+                    <h3>Dr. Michael Chen</h3>
+                    <p class="specialty">Pediatrician</p>
+                    <p class="experience">10+ years experience</p>
+                    <button class="contact-doctor">Contact</button>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <div class="doctor-placeholder">👩‍⚕️</div>
+                    </div>
+                    <h3>Dr. Emily Davis</h3>
+                    <p class="specialty">Orthopedic Surgeon</p>
+                    <p class="experience">18+ years experience</p>
+                    <button class="contact-doctor">Contact</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2>World-Class Facilities</h2>
+                <p>State-of-the-art infrastructure for superior patient care</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-item">
+                    <div class="facility-icon">🏥</div>
+                    <h3>Modern Infrastructure</h3>
+                    <p>Advanced medical facilities with latest technology</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">🛏️</div>
+                    <h3>Comfortable Rooms</h3>
+                    <p>Spacious and well-equipped patient rooms</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">⚕️</div>
+                    <h3>ICU & CCU</h3>
+                    <p>Critical care units with 24/7 monitoring</p>
+                </div>
+                <div class="facility-item">
+                    <div class="facility-icon">💊</div>
+                    <h3>Pharmacy</h3>
+                    <p>In-house pharmacy with all medications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment">
+        <div class="container">
+            <div class="appointment-wrapper">
+                <div class="appointment-info">
+                    <h2>Book Your Appointment</h2>
+                    <p>Schedule a consultation with our expert doctors</p>
+                    <ul class="appointment-features">
+                        <li>✓ Quick and easy booking</li>
+                        <li>✓ Choose your preferred doctor</li>
+                        <li>✓ Flexible time slots</li>
+                        <li>✓ Instant confirmation</li>
+                    </ul>
+                </div>
+                <form class="appointment-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Department</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="orthopedics">Orthopedics</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message (Optional)" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>We're here to help you 24/7</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <p>+1 (555) 987-6543</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>info@medicareplus.com</p>
+                    <p>support@medicareplus.com</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>123 Healthcare Avenue</p>
+                    <p>Medical District, NY 10001</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <h3>Working Hours</h3>
+                    <p>24/7 Emergency Services</p>
+                    <p>Mon-Fri: 8AM - 8PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon">+</div>
+                        <span>MediCare Plus</span>
+                    </div>
+                    <p>Providing exceptional healthcare services with compassion and excellence since 2005.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#doctors">Doctors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Emergency Care</a></li>
+                        <li><a href="#">Cardiology</a></li>
+                        <li><a href="#">Neurology</a></li>
+                        <li><a href="#">Pediatrics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MediCare Plus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
